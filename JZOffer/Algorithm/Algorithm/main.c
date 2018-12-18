@@ -10,6 +10,7 @@
 #include "test3.h"
 
 int main(int argc, const char * argv[]) {
-    test();
+//    test();
+    test3_2();
     return 0;
 }

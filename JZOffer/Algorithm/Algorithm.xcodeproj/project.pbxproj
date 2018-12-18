@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		220A267521C1458C004B8ABB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 220A267421C1458C004B8ABB /* main.c */; };
 		220A267E21C146DD004B8ABB /* test3.c in Sources */ = {isa = PBXBuildFile; fileRef = 220A267D21C146DD004B8ABB /* test3.c */; };
+		2210888821C7AEB8002270AE /* test3_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2210888721C7AEB8002270AE /* test3_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		220A267421C1458C004B8ABB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		220A267C21C146DD004B8ABB /* test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test3.h; sourceTree = "<group>"; };
 		220A267D21C146DD004B8ABB /* test3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test3.c; sourceTree = "<group>"; };
+		2210888621C7AEB8002270AE /* test3_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test3_2.h; sourceTree = "<group>"; };
+		2210888721C7AEB8002270AE /* test3_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test3_2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				220A267C21C146DD004B8ABB /* test3.h */,
 				220A267D21C146DD004B8ABB /* test3.c */,
+				2210888621C7AEB8002270AE /* test3_2.h */,
+				2210888721C7AEB8002270AE /* test3_2.c */,
 			);
 			path = Unit2;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			files = (
 				220A267521C1458C004B8ABB /* main.c in Sources */,
 				220A267E21C146DD004B8ABB /* test3.c in Sources */,
+				2210888821C7AEB8002270AE /* test3_2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
