@@ -8,9 +8,11 @@
 
 #include <stdio.h>
 #include "test3.h"
+#include "test4_1.h"
 
 int main(int argc, const char * argv[]) {
 //    test();
-    test3_2();
+//    test3_2();
+    test4_1();
     return 0;
 }
