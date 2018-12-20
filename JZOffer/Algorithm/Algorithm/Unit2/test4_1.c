@@ -43,7 +43,6 @@ int find(int *matrix, int rowCount, int colCount, int number) {
 
 void test4_1(void) {
     int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-    int *e = (int *)matrix;
     int result = find((int *)matrix, 4, 4, 22);
     if (result == 0) {
         printf("没找到");
